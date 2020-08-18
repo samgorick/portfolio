@@ -1,0 +1,27 @@
+.container {
+  margin-top: 1rem auto;
+  padding: 0 1rem;
+}
+
+.home-link {
+  text-shadow: none;
+  background-image: none;
+}
+
+.home-link-header {
+  display: inline;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style: none;
+  float: right;
+}
+
+li {
+  display: inline-block;
+  margin-right: 1rem;
+}

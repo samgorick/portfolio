@@ -1,12 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
+import Projects from "../components/projects"
 
 export default function Home() {
   return (
     <Layout style={{ color: `purple` }}>
-      <h1>Hello Gatsby!</h1>
-      <p>What a world.</p>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
+      <h1>Welcome!</h1>
+      <p>Portfolio for Sam Gorick</p>
+      <p>Full Stack Developer // Product Manager</p>
+      <p>Chicago // London</p>
+      <Projects />
     </Layout>
   )
 }
