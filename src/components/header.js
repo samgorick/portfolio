@@ -1,13 +1,15 @@
 import React from "react"
+import Jumbotron from "react-bootstrap/Jumbotron"
+import Container from "react-bootstrap/Container"
 
 const Header = () => {
   return (
-    <div style={{ textAlign: "center" }}>
-      <h1>Welcome!</h1>
-      <p>Portfolio for Sam Gorick</p>
-      <p>Full Stack Developer // Product Manager</p>
-      <p>Chicago // London</p>
-    </div>
+    <Jumbotron fluid>
+      <Container>
+        <h1>Welcome!</h1>
+        <h3>Sam Gorick personal site, Software Engineer // Product Manager</h3>
+      </Container>
+    </Jumbotron>
   )
 }
 
